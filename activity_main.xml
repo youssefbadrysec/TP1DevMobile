@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/display_counter_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="0"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/btn_show_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Afficher un message" />
+
+    <Button
+        android:id="@+id/btn_add_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incrémenter le compteur" />
+
+</LinearLayout>
